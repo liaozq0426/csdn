@@ -19,6 +19,9 @@ public class Run {
 		,"https://blog.csdn.net/u012693016/article/details/94644085"
 		,"https://blog.csdn.net/u012693016/article/details/95047722"
 		,"https://blog.csdn.net/u012693016/article/details/95060633"
+		,"https://blog.csdn.net/u012693016/article/details/96702309"
+		,"https://blog.csdn.net/u012693016/article/details/97272141"
+		,"https://blog.csdn.net/u012693016/article/details/98059766"
 	};
 
 	@SuppressWarnings("static-access")
