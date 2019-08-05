@@ -35,7 +35,8 @@ public class Run {
         			//Runtime.getRuntime().exec("taskkill  /IM firefox.exe"); //因为我系统默认的是火狐,然后关闭火狐浏览器
         		}
         	}
-        	Thread.sleep(8000);
+        	int closeInterval = refreshUrls.length * 1000;
+        	Thread.sleep(closeInterval);
             Runtime.getRuntime().exec("taskkill /F /IM Iexplore.exe");
             System.out.println("ok");
         }catch(Exception e){
@@ -56,7 +57,7 @@ public class Run {
 			count += 1;
 			System.out.println("第:" + count + "次刷新开始,当前时间" + currentTime);
 			runBroswer();
-			Thread.sleep(40 * 60 * 1000);
+			Thread.sleep(20 * 60 * 1000);
 		}
 	}
 }
